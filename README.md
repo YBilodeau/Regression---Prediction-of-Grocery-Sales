@@ -1,7 +1,7 @@
 # Regression – Prediction of Grocery Sales
 - **Author:** Yvon Bilodeau
 - **Last updated:** August 2022
-- 
+
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/703c4210d50e9f2e81cd4ccdf3ccdca936cb35c1/Images/Grocery_Produce.jpg)
 ## **Project Desciption**
 ### **Overview**
