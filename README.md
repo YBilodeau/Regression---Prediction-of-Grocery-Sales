@@ -35,3 +35,5 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/e5be04ca1f91850eaf079e10bbd3141cc01f05aa/Images/Sales_by_Outlet_Identifier.png)
  
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/841f56132a8ad6645443d11d75d852c216ed91ca/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/481facf587ed52a3bbff4f47863c19e01a2af5d6/Images/Average%20Outlet%20Sales%20by%20Outlet%20Type.png)
