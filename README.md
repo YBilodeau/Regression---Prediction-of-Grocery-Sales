@@ -33,5 +33,6 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 ## **Exploratory Data Analysis**
 **Sales by Outlet Identifier**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/e5be04ca1f91850eaf079e10bbd3141cc01f05aa/Images/Sales_by_Outlet_Identifier.png)
+
 **Average Oulet Sales by Outlet Size**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/841f56132a8ad6645443d11d75d852c216ed91ca/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
