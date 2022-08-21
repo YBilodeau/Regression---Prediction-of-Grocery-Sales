@@ -29,3 +29,6 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 - **Outlet_Location_Type:** The type of area in which the store is located
 - **Outlet_Type:** Whether the outlet is a grocery store or some sort of supermarket
 - **Item_Outlet_Sales:** Sales of the product in the particular store. This is the target variable to be predicted.
+
+## **Exploratory Data Analysis**
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/e5be04ca1f91850eaf079e10bbd3141cc01f05aa/Images/Sales_by_Outlet_Identifier.png)
