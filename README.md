@@ -18,7 +18,7 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 ### **Data Dictionary**
 - **Item_Identifier:** Unique product ID
-- **Item_Weight Weight:** of product
+- **Item_Weight:** Weight of product
 - **Item_Fat_Content:** Whether the product is low fat or regular
 - **Item_Visibility:** The percentage of total display area of all products in store allocated to the particular product
 - **Item_Type:** The category to which the product belongs
