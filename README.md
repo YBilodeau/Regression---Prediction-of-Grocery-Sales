@@ -32,7 +32,7 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 ## **Exploratory Data Analysis**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/e5be04ca1f91850eaf079e10bbd3141cc01f05aa/Images/Sales_by_Outlet_Identifier.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/bba59d03543a2b27801fedba7755c106fd793090/Images/Sales%20by%20Outlet%20Identifier.png)
  
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/4e4aed273a25c6561f43fef451366969e5cc7cd6/Images/Total%20Sales%20by%20Item%20Type.png)
 
@@ -44,7 +44,7 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 ## **Model Performance**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/4e4aed273a25c6561f43fef451366969e5cc7cd6/Images/Model%20Performance%20R2%20Scores%20.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/d77267a26a20956bd50e790d4aee9571c9cd20b1/Images/Model%20Performance%20R2%20Scores.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/4e4aed273a25c6561f43fef451366969e5cc7cd6/Images/Model%20Performance%20RMSE%20Scores%20.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2b860cd29810566690e0f45e34b6e3360d14cc40/Images/Model%20Performance%20RMSE%20Scores.png)
 
