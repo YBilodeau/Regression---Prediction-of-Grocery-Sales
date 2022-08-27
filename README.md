@@ -46,5 +46,5 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/d77267a26a20956bd50e790d4aee9571c9cd20b1/Images/Model%20Performance%20R2%20Scores.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/4e4aed273a25c6561f43fef451366969e5cc7cd6/Images/Model%20Performance%20RMSE%20Scores%20.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2b860cd29810566690e0f45e34b6e3360d14cc40/Images/Model%20Performance%20RMSE%20Scores.png)
 
