@@ -52,6 +52,7 @@ To prevent a + error and - error from cancelling each other out, we take the abs
  MAE will still be in the same units as the original target.
 
 On average, how off is the model's prediction from the true value?
+
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/cd1871432fe8488a45b53fff69e3937e12a46ea4/Images/Model%20Performance%20MAE%20Scores.png)
 
 ### **Mean Squared Error (MSE)**
@@ -61,14 +62,16 @@ $$ \Large MSE = \frac{\sum_{i=1}^{n}(y_{i} - \hat y_{i})^2}{n}$$
 
 Statisticians like MSE over MAE because it punishes larger errors more severely, we can square $y_{i} - \hat y_{i}$ instead of taking the absolute value.
 Unlike MAE, MSE is no longer in the same units as the data, it is in units-squared. 
+
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20MSE%20Scores.png)
 
 ### **Root-Mean Squared Error (RMSE)**
-- To convert MSE back to the same units as the original taret, we can take the square-root of the MSE to get RMSE.
+To convert MSE back to the same units as the original target, we can take the square-root of the MSE to get the RMSE.
 
-$$ \Large RMSE = \sqrt{\frac{\sum_{i=1}^{n}(y_{i} - \hat y_{i})^2}{n}}$$
+$$\Large RMSE = \sqrt{\frac{\sum_{i=1}^{n}(y_{i} - \hat y_{i})^2}{n}}$$
 
-- RMSE is probably the best/most-useful metric out of MAE, MSE, and RMSE.
+RMSE is probably the best/most-useful metric out of MAE, MSE, and RMSE.
+ 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20RMSE%20Scores.png)
 
 ### **Coefficient of Determination (R2)**
