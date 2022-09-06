@@ -44,8 +44,17 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 ## **Model Performance**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/e6ea644ff0453a639c003efef0922b33aa3750f5/Images/Model%20Performance%20R2%20Scores.png)
+### **Mean Absolute Error (MAE)**
+$$ \Large MAE = \frac{\sum_{i=1}^{n}|y_{i} - \hat y_{i}|}{n}$$
+- To prevent a + error and - error from cancelling each other out, we take the absolute value of the erorrs before we sum them.
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/e6ea644ff0453a639c003efef0922b33aa3750f5/Images/Model%20Performance%20RMSE%20Scores.png)
+- MAE will still be in the same units as the original target.
+- On average, how off is the model's prediction from the true value?
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/15bc9fdd30feb477520f7e23699435592f8bd430/Images/Feature%20Importance.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/cd1871432fe8488a45b53fff69e3937e12a46ea4/Images/Model%20Performance%20MAE%20Scores.png)
+
+![image]()
+
+![image]()
+
+![image]()
