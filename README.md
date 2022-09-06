@@ -46,10 +46,11 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 ### **Mean Absolute Error (MAE)**
 $$ \Large MAE = \frac{\sum_{i=1}^{n}|y_{i} - \hat y_{i}|}{n}$$
-- To prevent a + error and - error from cancelling each other out, we take the absolute value of the erorrs before we sum them.
+To prevent a + error and - error from cancelling each other out, we take the absolute value of the errors before we sum them.
 
-- MAE will still be in the same units as the original target.
-- On average, how off is the model's prediction from the true value?
+ MAE will still be in the same units as the original target.
+
+On average, how off is the model's prediction from the true value?
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/cd1871432fe8488a45b53fff69e3937e12a46ea4/Images/Model%20Performance%20MAE%20Scores.png)
 
 ### **Mean Squared Error (MSE)**
