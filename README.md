@@ -66,14 +66,14 @@ $$ \Large MSE = \frac{\sum_{i=1}^{n}(y_{i} - \hat y_{i})^2}{n}$$
 
 $$ \Large RMSE = \sqrt{\frac{\sum_{i=1}^{n}(y_{i} - \hat y_{i})^2}{n}}$$
 
->- RMSE is probably the best/most-useful metric out of MAE, MSE, and RMSE.
+- RMSE is probably the best/most-useful metric out of MAE, MSE, and RMSE.
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20RMSE%20Scores.png)
 
 ### **Coefficient of Determination (R2)**
 
-> **The $R^2$ or Coefficient of determination is a statistical measure that is used to assess the goodness of fit of a regression model**
+ **The $R^2$ or Coefficient of determination is a statistical measure that is used to assess the goodness of fit of a regression model**
 
->- Value should be between 0 and 1.
+- Value should be between 0 and 1.
     - $R^2$ is the proportion (%) of the variance in our target that our model could explain.
     - $R^2$=0.8 means our model can explain 80% of the variance in our target.
     - If we have a REALLY BAD model, we may get a negative $R^2$
