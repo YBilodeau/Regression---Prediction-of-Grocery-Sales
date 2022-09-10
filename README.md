@@ -81,15 +81,22 @@ RMSE is the square root of MSE, and is probably the most-useful and a better met
  
  ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20RMSE%20Scores.png)
 
-### **Coefficient of Determination (R2)**
+### **Coefficient of Determination ( $R^2$ )**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/R2%20Formula.jpg)
 
-- **The $R^2$ Coefficient of Determination** is a statistical measure that is used to assess the goodness of fit of a regression model. It should have a value between 0 and 1, however a poor model may have a negative $R^2$. $R^2$ is the proportion (%) of the variance in our target that our model could explain.
-- The **Sum of Squared Errors (SSE)** of the **Models Predicted Values** ( $\hat{y}$ ) vs the **True Values** ( $y_i$ ): 
+**The Sum of Squared Errors (SSE) of the Models Predicted Values**:
 $$\text{SSE of our Predictions } = \sum_i(y_i - \hat y_i)^2$$
-- The **Sum of Squared Errors (SSE)** for the **Mean Values** ( $\bar{y}$ ) vs the **True Values** ( $y_i$ ): 
+**The Sum of Squared Errors (SSE) for the Mean Values**
  $$\text{SSE of the Mean } = \sum_i(y_i - \overline y_i)^2$$
-- $R^2$ **Coefficient of Determination** calculates how much better our model's predictions are vs if we just used the mean instead. 
+
+**The $R^2$ Coefficient of Determination**  is the proportion (%) of the variation in the dependent variable, or target variable, that a model is able to predict, or explain, from the independent variables, or features. It is a measure of the goodness of fit of a regression model.  $R^2$ calculates how much better our model's predictions are vs if the mean was used instead. It should have a value between 0 and 1, however a poor model may have a negative $R^2$.
+
+**Advantages:**
+- It uses a consistent scale, which is used for all datasets, and thus may be used for comparison.
+
+**Disadvantages:**
+- It is difficult to interpret and very difficult to explain to non-technical audiences.
+- A high $R^2$ doesn’t always mean a good model and a low score doesn’t always mean a bad one.  
 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20R2%20Scores.png)
 
