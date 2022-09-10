@@ -46,26 +46,44 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 ### **Mean Absolute Error (MAE)**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/MAE%20Formula.jpg)
-- It is an arithmetic average of the absolute errors ${\displaystyle |\hat{y}-y_i|}$, where ( $\hat{y}$ ) are the predicted values and ( $y_i$ ) are the true values.
-- To prevent a + error and - error from cancelling each other out, we take the absolute value of the errors before we sum them.
--  MAE will still be in the same units as the original target.
+
+MAE is the arithmetic average (mean) of the absolute errors ${\displaystyle |\hat{y}-y_i|}$, where ( $\hat{y}$ ) are the predicted values and ( $y_i$ ) are the true values.
+
+**Advantages:**
+- It prevents positive (+) and negative (-) errors from canceling out.
+- It has the same units of measure as the target.
+
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/cd1871432fe8488a45b53fff69e3937e12a46ea4/Images/Model%20Performance%20MAE%20Scores.png)
 
 ### **Mean Squared Error (MSE)**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/MSE%20Formula.jpg)
-- To prevent a + error and - error from cancelling each other out, we could also square the error (since a negative number squared becomes a positive number).
-- Statisticians like MSE over MAE because it punishes larger errors more severely, we can square $y_{i} - \hat y_{i}$ instead of taking the absolute value.
-- Unlike MAE, MSE is no longer in the same units as the data, it is in units-squared. 
+
+MSE is the arithmetic average (mean) of the squared errors ${\displaystyle (\hat{y}-y_i)^2}$, where ( $\hat{y}$ ) are the predicted values and ( $y_i$ ) are the true values.
+
+**Advantages:**
+- It prevents positive (+) and negative (-) errors from canceling out.
+- It punishes large errors.
+
+**Disadvantages:**
+- It does not have the same units of measure as the target.
+
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20MSE%20Scores.png)
 
 ### **Root-Mean Squared Error (RMSE)**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/RMSE%20Formula.jpg)
-- To convert MSE back to the same units as the original target, we can take the square-root of the MSE to get the RMSE.
-- RMSE is probably the best/most-useful metric out of MAE, MSE, and RMSE.
+
+RMSE is the square root of MSE, and is probably the most-useful and a better metric than MAE, MSE, and RMSE.
+
+**Advantages:**
+- It prevents positive (+) and negative (-) errors from canceling out.
+- It punishes large errors.
+- It has the same units of measure as the target.
+ 
  ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20RMSE%20Scores.png)
 
 ### **Coefficient of Determination (R2)**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/R2%20Formula.jpg)
+
 - **The $R^2$ Coefficient of Determination** is a statistical measure that is used to assess the goodness of fit of a regression model. It should have a value between 0 and 1, however a poor model may have a negative $R^2$. $R^2$ is the proportion (%) of the variance in our target that our model could explain.
 - The **Sum of Squared Errors (SSE)** of the **Models Predicted Values** ( $\hat{y}$ ) vs the **True Values** ( $y_i$ ): 
 $$\text{SSE of our Predictions } = \sum_i(y_i - \hat y_i)^2$$
