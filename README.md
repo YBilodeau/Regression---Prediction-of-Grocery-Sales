@@ -45,9 +45,7 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 ## **Model Performance**
 
 ### **Mean Absolute Error (MAE)**
-$$ \Large MAE = \frac{\sum_{i=1}^{n} |y_{i} - \hat y_{i}|}{n}$$
-
-$$ \Large MAE = {\sum_{i=1}^{n} \frac|y_{i} - \hat y_{i}|}{n}$$
+$$ \Large MAE = \frac{\sum_ {i=1}^{n} |y_{i} - \hat y_{i}|}{n}$$
 
 To prevent a + error and - error from cancelling each other out, we take the absolute value of the errors before we sum them.
 
