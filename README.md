@@ -92,7 +92,11 @@ Outlet Location Type does have some correlation with the Outlet Type's Average O
 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Average%20Item%20Sales%20by%20Item%20Type.png)
 
-Item Type has a significant correlation with the Outlet Type's Average Outlet Sales.
+Item Type does have a significant correlation with the Items Type's Average Outlet Sales.
+
+- It is of interest to note that while the Seafood Item contrubutes the least to Total Conpany Sales, it has the highest Item Sales, this Item Type has the highest Average Outlet Sales.
+
+- The Fruits and Vegetables Item Type contributed greatly to the Company Sales Total and had high Average Outlet Sales.
 
 #### **Item Fat Content**
 
@@ -100,7 +104,7 @@ Item Type has a significant correlation with the Outlet Type's Average Outlet Sa
 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
 
-Low Fat Items contributed much more significantly to the Company
+Low Fat Items contributed much more significantly to the Total Company Sales.
 
 Outlet Fat Content does have some correlation with the an Item's Average Outlet Sales. Though the amount may not be overly helpful in predicting Item's Average Outlet Sales.
 
