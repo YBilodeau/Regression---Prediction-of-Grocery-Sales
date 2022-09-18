@@ -84,15 +84,27 @@ Outlet Location Type does have some correlation with the Outlet Type's Average O
 
 ### **Items**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/82e8f642fa4517278aa1ec6263fce5360bfec8aa/Images/Total%20Sales%20Top%2010%20Items.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Total%20Sales%20Top%2010%20Items.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/46afeebacc84ec51c349711eee0af7bb16c7b926/Images/Total%20Sales%20by%20Outlet%20Identifier.png)
+#### **Item Types**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/82e8f642fa4517278aa1ec6263fce5360bfec8aa/Images/Average%20Outlet%20Sales%20by%20Outlet%20Location%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Total%20Company%20Sales%20by%20Item%20Type.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/82e8f642fa4517278aa1ec6263fce5360bfec8aa/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Average%20Item%20Sales%20by%20Item%20Type.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/82e8f642fa4517278aa1ec6263fce5360bfec8aa/Images/Average%20Outlet%20Sales%20by%20Outlet%20Type.png)
+Item Type has a significant correlation with the Outlet Type's Average Outlet Sales.
+
+#### **Item Fat Content**
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Total%20Company%20Sales%20by%20Item%20Fat%20Content.png)
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
+
+Low Fat Items contributed much more significantly to the Company
+
+Outlet Fat Content does have some correlation with the an Item's Average Outlet Sales. Though the amount may not be overly helpful in predicting Item's Average Outlet Sales.
+
+- Low Fat items may have contributed the more significantly to Total Company Sales than Regular items, however they do not have higher Average Outlet Sales.
 
 ## **Model Performance**
 
