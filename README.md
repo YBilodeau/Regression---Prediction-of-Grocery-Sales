@@ -30,7 +30,59 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 - **Outlet_Type:** Whether the outlet is a grocery store or some sort of supermarket
 - **Item_Outlet_Sales:** Sales of the product in the particular store. This is the target variable to be predicted.
 
-## **Exploratory Data Analysis**
+## **Explanatory Data Analysis**
+
+### **Company**
+- The company has 10 outlet stores.
+- The first outlet store was opened in 1985, and the most recent in 2009.
+- The company offers 1559 items across a total of 16 product category types.
+- The total sales for the period was $18,591,125.41.
+
+### **Outlets**
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Sales%20by%20Outlet.png)
+
+- Outlet OUT027 significantly outperformed the other outlets with 3,453,926.05 dollars of total sales.
+  - It is the only Supermarket Type3 outlet.
+  
+- Outlets OUT010 and OUT019 significantly underperformed the other outlets, having only 188,340.17 dollars and 179,694.09 dollars in total sales respectively.
+  - These are the only Grocery Stores outlets.
+
+#### **Outlet Types**
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Company%20Sales%20by%20Outlet%20Type.png)
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Average%20Outlet%20Sales%20by%20Outlet%20Type.png)
+
+Outlet Type has a significant correlation with the Outlet Type's Average Outlet Sales.
+
+- Supermarket Type1 outlets may have contributed the most to Total Company Sales, however they do not have the highest Average Outlet Sales.
+
+- Supermarket Type3 has only only one outlet, and it has the highest Average Outlet Sales. There are (2) Grocery Store Outlet Types, and they have the least Average Outlet Sales of the Outlet Types.
+
+#### **Outlet Size**
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Company%20Sales%20by%20Outlet%20Size.png)
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
+
+Outlet Size does have some correlation with the Outlet Type's Average Outlet Sales. It is noted however, that due to the high variance within each Outlet Size it may not be overly helpful in predicting an Outlet Type's Average Outlet Sales.
+
+- Medium Size outlets contributed the most, and Small and Unknown Sized Outlets contributed the least to Total Company Sales.
+
+- Though High Size outlets contributed a lessor amount than either Small or Unknown Size to Total Company Sales, their Average Outlet Sales were higher.
+
+#### **Outlet Location Types**
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Company%20Sales%20by%20Outlet%20Location.png)
+
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Average%20Outlet%20Sales%20by%20Outlet%20Location%20Type.png)
+
+Outlet Location Type does have some correlation with the Outlet Type's Average Outlet Sales. It is noted however, that due to the high variance within each Outlet Location Type it may not be overly helpful in predicting an Outlet Type's Average Outlet Sales.
+
+- Tier 3 Outlet Location Types contributed the most to Total Company Sales.
+
+- Though Tier 2  Outlet Location Types contributed a lessor amount than either Tier 3 to Total Company Sales, their Average Outlet Sales were higher.
+
+### **Items**
 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/82e8f642fa4517278aa1ec6263fce5360bfec8aa/Images/Total%20Sales%20Top%2010%20Items.png)
 
