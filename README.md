@@ -169,4 +169,4 @@ $$\text{SSE of our Predictions } = \sum_i(y_i - \hat y_i)^2$$
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20R2%20Scores.png)
 
 ## **Feature Importances**
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Feature%20Importance.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/82d3c25880f304a953533fc8f035871fe5d456bc/Images/Feature%20Importance.png)
