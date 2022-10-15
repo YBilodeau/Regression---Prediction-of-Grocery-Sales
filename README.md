@@ -39,7 +39,7 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 - The total sales for the period was $18,591,125.41.
 
 ### **Outlets**
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Sales%20by%20Outlet.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Sales%20by%20Outlet.png)
 
 - Outlet OUT027 significantly outperformed the other outlets with 3,453,926.05 dollars of total sales.
   - It is the only Supermarket Type3 outlet.
@@ -49,9 +49,9 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 #### **Outlet Types**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Company%20Sales%20by%20Outlet%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Outlet%20Type.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Average%20Outlet%20Sales%20by%20Outlet%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Outlet%20Sales%20by%20Outlet%20Type.png)
 
 Outlet Type has a significant correlation with the Outlet Type's Average Outlet Sales.
 
@@ -60,9 +60,9 @@ Outlet Type has a significant correlation with the Outlet Type's Average Outlet 
 - Supermarket Type3 has only only one outlet, and it has the highest Average Outlet Sales. There are (2) Grocery Store Outlet Types, and they have the least Average Outlet Sales of the Outlet Types.
 
 #### **Outlet Size**
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Company%20Sales%20by%20Outlet%20Size.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Outlet%20Size.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
 
 Outlet Size does have some correlation with the Outlet Type's Average Outlet Sales. It is noted however, that due to the high variance within each Outlet Size it may not be overly helpful in predicting an Outlet Type's Average Outlet Sales.
 
@@ -72,9 +72,9 @@ Outlet Size does have some correlation with the Outlet Type's Average Outlet Sal
 
 #### **Outlet Location Types**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Total%20Company%20Sales%20by%20Outlet%20Location.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Outlet%20Location.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/ca718e26826af116d40a85ad845450530a4fc2ac/Images/Average%20Outlet%20Sales%20by%20Outlet%20Location%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Outlet%20Sales%20by%20Outlet%20Location%20Type.png)
 
 Outlet Location Type does have some correlation with the Outlet Type's Average Outlet Sales. It is noted however, that due to the high variance within each Outlet Location Type it may not be overly helpful in predicting an Outlet Type's Average Outlet Sales.
 
@@ -84,13 +84,13 @@ Outlet Location Type does have some correlation with the Outlet Type's Average O
 
 ### **Items**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Total%20Sales%20Top%2010%20Items.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Sales%20Top%2010%20Items.png)
 
 #### **Item Types**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Total%20Company%20Sales%20by%20Item%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Item%20Type.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Average%20Item%20Sales%20by%20Item%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Item%20Sales%20by%20Item%20Type.png)
 
 Item Type does have a significant correlation with the Items Type's Average Outlet Sales.
 
@@ -100,9 +100,9 @@ Item Type does have a significant correlation with the Items Type's Average Outl
 
 #### **Item Fat Content**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Total%20Company%20Sales%20by%20Item%20Fat%20Content.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Item%20Fat%20Content.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/3d5391ff99d6b1ccdf8a43be28ff865e8926c7b0/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
+![https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
 
 Low Fat Items contributed much more significantly to the Total Company Sales.
 
