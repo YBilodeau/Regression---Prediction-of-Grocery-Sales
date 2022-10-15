@@ -102,7 +102,7 @@ Item Type does have a significant correlation with the Items Type's Average Outl
 
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Item%20Fat%20Content.png)
 
-![https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
 
 Low Fat Items contributed much more significantly to the Total Company Sales.
 
