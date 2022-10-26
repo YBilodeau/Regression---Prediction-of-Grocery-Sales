@@ -121,7 +121,7 @@ MAE is the arithmetic average (mean) of the absolute errors ${\displaystyle |\ha
 - It prevents positive (+) and negative (-) errors from canceling out.
 - It has the same units of measure as the target.
 
-![image]([g](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Model%20Performance%20MAE%20Scores.png))
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/1f0496ee44dd322e237d4cadab49adc9df53befa/Images/Model%20Performance%20MAE%20Scores.png)
 
 ### **Mean Squared Error (MSE)**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/MSE%20Formula.jpg)
