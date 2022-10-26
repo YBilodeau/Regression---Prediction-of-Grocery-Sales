@@ -39,7 +39,7 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 - The total sales for the period was $18,591,125.41.
 
 ### **Outlets**
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Sales%20by%20Outlet.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Total%20Sales%20by%20Outlet.png)
 
 - Outlet OUT027 significantly outperformed the other outlets with 3,453,926.05 dollars of total sales.
   - It is the only Supermarket Type3 outlet.
@@ -49,9 +49,9 @@ The rows represent 8523 observations, and the columns represent 11 features and 
 
 #### **Outlet Types**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Outlet%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Total%20Company%20Sales%20by%20Outlet%20Type.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Outlet%20Sales%20by%20Outlet%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Average%20Outlet%20Sales%20by%20Outlet%20Type.png)
 
 Outlet Type has a significant correlation with the Outlet Type's Average Outlet Sales.
 
@@ -60,9 +60,9 @@ Outlet Type has a significant correlation with the Outlet Type's Average Outlet 
 - Supermarket Type3 has only only one outlet, and it has the highest Average Outlet Sales. There are (2) Grocery Store Outlet Types, and they have the least Average Outlet Sales of the Outlet Types.
 
 #### **Outlet Size**
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Outlet%20Size.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Total%20Company%20Sales%20by%20Outlet%20Size.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Average%20Outlet%20Sales%20by%20Outlet%20Size.png)
 
 Outlet Size does have some correlation with the Outlet Type's Average Outlet Sales. It is noted however, that due to the high variance within each Outlet Size it may not be overly helpful in predicting an Outlet Type's Average Outlet Sales.
 
@@ -72,9 +72,9 @@ Outlet Size does have some correlation with the Outlet Type's Average Outlet Sal
 
 #### **Outlet Location Types**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Outlet%20Location.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Total%20Company%20Sales%20by%20Outlet%20Location.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Outlet%20Sales%20by%20Outlet%20Location%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Average%20Outlet%20Sales%20by%20Outlet%20Location%20Type.png)
 
 Outlet Location Type does have some correlation with the Outlet Type's Average Outlet Sales. It is noted however, that due to the high variance within each Outlet Location Type it may not be overly helpful in predicting an Outlet Type's Average Outlet Sales.
 
@@ -84,13 +84,13 @@ Outlet Location Type does have some correlation with the Outlet Type's Average O
 
 ### **Items**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Sales%20Top%2010%20Items.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Total%20Sales%20Top%2010%20Items.png)
 
 #### **Item Types**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Item%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Total%20Company%20Sales%20by%20Item%20Type.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Item%20Sales%20by%20Item%20Type.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Average%20Item%20Sales%20by%20Item%20Type.png)
 
 Item Type does have a significant correlation with the Items Type's Average Outlet Sales.
 
@@ -100,9 +100,9 @@ Item Type does have a significant correlation with the Items Type's Average Outl
 
 #### **Item Fat Content**
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Total%20Company%20Sales%20by%20Item%20Fat%20Content.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Total%20Company%20Sales%20by%20Item%20Fat%20Content.png)
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/c2121f9d5ccfb1c60383ae152bafeeec12e25cc1/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Average%20Item%20Sales%20by%20Item%20Fat%20Content.png)
 
 Low Fat Items contributed much more significantly to the Total Company Sales.
 
@@ -121,7 +121,7 @@ MAE is the arithmetic average (mean) of the absolute errors ${\displaystyle |\ha
 - It prevents positive (+) and negative (-) errors from canceling out.
 - It has the same units of measure as the target.
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/cd1871432fe8488a45b53fff69e3937e12a46ea4/Images/Model%20Performance%20MAE%20Scores.png)
+![image]([g](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Model%20Performance%20MAE%20Scores.png))
 
 ### **Mean Squared Error (MSE)**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/MSE%20Formula.jpg)
@@ -135,7 +135,7 @@ MSE is the arithmetic average (mean) of the squared errors ${\displaystyle (\hat
 **Disadvantages:**
 - It does not have the same units of measure as the target.
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20MSE%20Scores.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Model%20Performance%20MSE%20Scores.png)
 
 ### **Root-Mean Squared Error (RMSE)**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/RMSE%20Formula.jpg)
@@ -147,7 +147,7 @@ RMSE is the square root of MSE, and is probably the most-useful and a better met
 - It punishes large errors.
 - It has the same units of measure as the target.
  
- ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20RMSE%20Scores.png)
+ ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Model%20Performance%20RMSE%20Scores.png)
 
 ### **Coefficient of Determination ( $R^2$ )**
 ![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/7c96966fefb9f118019456d9348c80928f4f49a0/Images/R2%20Formula.jpg)
@@ -166,7 +166,4 @@ $$\text{SSE of our Predictions } = \sum_i(y_i - \hat y_i)^2$$
 - It is difficult to interpret and very difficult to explain to non-technical audiences.
 - A high $R^2$ doesn’t always mean a good model and a low score doesn’t always mean a bad one.  
 
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/2cdc26ca30daf3719b66f07ae7b23e0246988eaf/Images/Model%20Performance%20R2%20Scores.png)
-
-## **Feature Importances**
-![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/82d3c25880f304a953533fc8f035871fe5d456bc/Images/Feature%20Importance.png)
+![image](https://github.com/YBilodeau/Regression-Prediction-of-Grocery-Sales/blob/0353675ed8116de305d344b7716d0184c18501ee/Images/Model%20Performance%20R2%20Scores.png)
