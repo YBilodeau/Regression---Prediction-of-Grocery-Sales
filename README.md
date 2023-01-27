@@ -1,4 +1,4 @@
-# Regression – Prediction of Grocery Sales
+# **Regression – Prediction of Grocery Sales**
 - **Author:** Yvon Bilodeau
 - **Last updated:** August 2022
  
